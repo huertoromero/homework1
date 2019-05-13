@@ -55,6 +55,7 @@ h3{
     height: 100%;
     padding: 0 25px 25px 25px;
     text-align: justify;
+    overflow-y: scroll;
  
 }
 
@@ -64,6 +65,9 @@ h3{
     max-width: 1440px;
     display: flex;
     margin-left: 15%;
+    height: 99vh;
+    position: sticky;
+
 
 }
 
