@@ -1,11 +1,7 @@
-
-
 h1{
     font-family: 'Quicksand', sans-serif;
     font-weight: lighter;
-    color: white;
-    text-align: center;
-
+    color:white; 
 }
 
 h2{
@@ -17,16 +13,16 @@ h2{
     font-weight: lighter;
     color:#11998e;
     font-size: 20px;
-    width: 480px;
+    width: 330px;
     
 }
+
+
 h3{
     font-family: 'Mada', sans-serif;
     font-weight: medium;
     color: rgb(49, 49, 49);
 }
-
-
 
 .parrafo{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -34,57 +30,58 @@ h3{
     font-weight: lighter;
     color:rgb(61, 61, 59);
     text-align: justify;
-
-} 
-
+}   
 
 .izq{
-    
-    width:25%;
-    height: 1100Px;
+
     background: #11998e; 
     background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  
     background: linear-gradient(to right, #38ef7d, #11998e); 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: lighter;   
     color: white;
+    height:100%;
+    width: 20%;
+    padding: 0 50px 10px 50px;
     text-align: center;
-    margin-left: 10%;
-    float: left;
+ 
 }
 
+
 .der{
-    
+  
     background: rgb(236, 236, 236);
-    width: 55%;
-    height: 1100px;
-    float: left;
-    margin-right: 10%;
-    
+    width: 50%;
+    height: 100%;
+    padding: 0 25px 25px 25px;
+    text-align: justify;
+ 
+}
+
+
+.container {
+
+    max-width: 1440px;
+    display: flex;
+    margin-left: 15%;
+
 }
 
 #img{
     width:150px;
     height:150px;
-    border-radius:160px;
+    border-radius:100%;
     border:2px solid rgb(255, 253, 253);
-    display:block;
-    margin: auto;
-}
-
-.center{
-
-
-    margin-left: 7%;
-    margin-right: 7%;
-    color: rgb(49, 49, 49);
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 15px;
-    font-weight: lighter;
+    justify-content: center;
     
-
 }
 
+[hidden] {
+    display: none;
+  }
+
+  template {
+    display: none;
+  }
 
 
